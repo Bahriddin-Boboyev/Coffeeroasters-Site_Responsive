@@ -1,0 +1,127 @@
+
+.collection{
+  padding-bottom: 200px;
+}
+
+
+.collection__box {
+  max-width: 1111px;
+  margin: 0 auto;
+}
+
+.collection__img-box {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../../img/collection-bg.png');
+  padding-top: 126px;
+}
+
+.collection__list {
+  @include flex;
+  justify-content: space-between;
+}
+
+.collection__item {
+  max-width: 255px;
+  text-align: center;
+}
+
+.collection__img-block {
+  max-width: 255px;
+  height: 193px;
+  margin-bottom: 71px;
+}
+
+.collection__title {
+  font-family: $second-font;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  margin-bottom: 24px;
+}
+
+.collection__text {
+  max-width: 255px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+@media screen and(max-width:934px) {
+  .collection__img-box {
+    background-image: url('../../img/collection-bg-tablet.png');
+    background-size: contain;
+    padding-top: 95px;
+  }
+
+  .collection__list {
+    @include flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .collection__item {
+    @include flex;
+    justify-content: space-between;
+    max-width: 100%;
+    text-align: start;
+    margin-bottom: 32px;
+  }
+
+  .collection__img-block {
+    flex-shrink: 0;
+    max-width: 300px;
+    background-size: contain;
+    margin: 0;
+    margin-right: 36px;
+
+  }
+
+  .collection__block-2 {
+    max-width: 100%;
+  }
+
+  .collection__text {
+    max-width: 282px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .collection{
+    padding-bottom: 144px;
+  }
+  
+
+}
+
+@media screen and(max-width:554px) {
+
+  .collection{
+    padding-bottom: 120px;
+  }
+
+  .collection__img-box {
+    background-image: url('../../img/collection-bg-mobile.png');
+    background-size: contain;
+    padding-top: 60px;
+  }
+
+  .collection__item {
+    flex-direction: column;
+    max-width: 100%;
+    margin-bottom: 32px;
+    text-align: center;
+    margin-bottom: 42px;
+  }
+
+  .collection__img-block{
+    margin-right: 0;
+  }
+
+  .collection__block-2 {
+    margin-top: 24px;
+  }
+
+}

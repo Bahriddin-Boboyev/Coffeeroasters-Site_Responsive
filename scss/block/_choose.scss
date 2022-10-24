@@ -1,0 +1,241 @@
+.choose {
+  padding-bottom: 200px;
+}
+
+.choose__top {
+  text-align: center;
+  background-color: #282F38;
+  border-radius: 10px;
+  padding-top: 100px;
+  padding-bottom: 87px;
+  position: relative;
+}
+
+.choose__title {
+  font-family: $second-font;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+}
+
+.choose__text {
+  margin: 0 auto;
+  max-width: 540px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+.choose__list {
+  max-width: 1111px;
+  margin: 0 auto;
+  @include flex;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+.choose__item {
+  max-width: 350px;
+  padding: 72px 48px 48px 48px;
+  background: #0E8784;
+  border-radius: 8px;
+  text-align: center;
+  transition: 1s;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+  &:hover{
+    transform: scale(1.2);
+    z-index: 2;
+  }
+}
+
+.choose__item:nth-child(1):before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('../../img/choose-img-1.svg');
+  margin-bottom: 56px;
+}
+
+.choose__item:nth-child(2):before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('../../img/choose-img-2.svg');
+  margin-bottom: 56px;
+}
+
+.choose__item:nth-child(3):before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url('../../img/choose-img-3.svg');
+  margin-bottom: 56px;
+}
+
+.choose__sup-title {
+  font-family: $second-font;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FEFCF7;
+  margin-bottom: 24px;
+}
+
+.choose__sup-text {
+  max-width: 255px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.choose__emty {
+  position: absolute;
+  width: 100%;
+  height: 245px;
+  border-radius: 10px;
+  background-color: #282F38;
+  z-index: -1;
+  bottom: -64%;
+}
+
+
+@media screen and (max-width:934px) {
+
+  .choose {
+
+    padding-bottom: 144px;
+
+    &__list {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    &__item {
+      display: flex;
+      align-items: center;
+      max-width: 150%;
+      height: 180px;
+      padding: 41px 48px 41px 70px;
+    }
+
+    &__box {
+      padding-left: 55px;
+      text-align: start;
+    }
+
+    &__item:nth-child(1)::before {
+      margin-bottom: 0;
+    }
+
+    &__item:nth-child(2)::before {
+      margin-bottom: 0;
+    }
+
+    &__item:nth-child(3)::before {
+      margin-bottom: 0;
+    }
+
+
+    &__sup-title {
+
+      margin-bottom: 0;
+    }
+
+    &__sup-text {
+      text-align: start;
+    }
+
+    &__title {
+      max-width: 264px;
+      margin: 0 auto;
+      margin-bottom: 24px;
+      font-size: 32px;
+      line-height: 48px;
+    }
+
+    &__top {
+      padding-top: 56px;
+    }
+
+    &__emty {
+      height: 316px;
+      bottom: -300px;
+    }
+
+  }
+
+  @media screen and (max-width:554px) {
+    .choose {
+
+      padding-bottom: 120px;
+
+      &__list {
+        display: flex;
+
+      }
+
+      &__item {
+        flex-direction: column;
+        width: 78%;
+        height: 382px;
+        padding: 72px 12px 51px 12px;
+      }
+
+      &__box {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+      }
+
+      &__sup-title {
+        max-width: 255px;
+        margin-bottom: 24px;
+        font-size: 22px;
+      }
+
+      &__emty {
+        position: absolute;
+        width: 100%;
+        height: 760px;
+        border-radius: 10px;
+        background-color: #282F38;
+        z-index: -1;
+        bottom: -277%;
+      }
+
+      &__text {
+        display: none;
+      }
+
+      &__sup-text {
+        text-align: center;
+        max-width: 212px;
+      }
+
+      &__item:nth-child(1)::before {
+        margin-bottom: 46px;
+      }
+
+      &__item:nth-child(2)::before {
+        margin-bottom: 46px;
+      }
+
+      &__item:nth-child(3)::before {
+        margin-bottom: 46px;
+      }
+
+    }
+  }
+}
