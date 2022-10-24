@@ -144,7 +144,7 @@ img {
   width: 16px;
   height: 15px;
   background-repeat: no-repeat;
-  background-image: url("../../img/menu.svg");
+  background-image: url("../img/menu.svg");
   background-position: center;
   background-color: transparent;
   border: none;
@@ -169,7 +169,7 @@ img {
 .hero__block {
   padding: 117px 0;
   background-repeat: no-repeat;
-  background-image: url("../../img/hero-bg.jpg");
+  background-image: url("../img/hero-bg.jpg");
   border-radius: 10px;
 }
 
@@ -209,7 +209,7 @@ img {
 
 @media screen and (max-width: 934px) {
   .hero__block {
-    background-image: url("../../img/hero-bg-tablet.jpg");
+    background-image: url("../img/hero-bg-tablet.jpg");
     background-size: cover;
     background-position-x: right;
   }
@@ -226,7 +226,7 @@ img {
 }
 @media screen and (max-width: 554px) {
   .hero__block {
-    background-image: url("../../img/hero-bg-mobile.jpg");
+    background-image: url("../img/hero-bg-mobile.jpg");
     padding: 100px 0;
   }
   .hero__content {
@@ -257,7 +257,7 @@ img {
 .collection__img-box {
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../../img/collection-bg.png");
+  background-image: url("../img/collection-bg.png");
   padding-top: 126px;
 }
 
@@ -303,7 +303,7 @@ img {
 
 @media screen and (max-width: 934px) {
   .collection__img-box {
-    background-image: url("../../img/collection-bg-tablet.png");
+    background-image: url("../img/collection-bg-tablet.png");
     background-size: contain;
     padding-top: 95px;
   }
@@ -361,7 +361,7 @@ img {
     padding-bottom: 120px;
   }
   .collection__img-box {
-    background-image: url("../../img/collection-bg-mobile.png");
+    background-image: url("../img/collection-bg-mobile.png");
     background-size: contain;
     padding-top: 60px;
   }
@@ -452,7 +452,7 @@ img {
   height: 72px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url("../../img/choose-img-1.svg");
+  background-image: url("../img/choose-img-1.svg");
   margin-bottom: 56px;
 }
 
@@ -462,7 +462,7 @@ img {
   height: 72px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url("../../img/choose-img-2.svg");
+  background-image: url("../img/choose-img-2.svg");
   margin-bottom: 56px;
 }
 
@@ -472,7 +472,7 @@ img {
   height: 72px;
   display: inline-block;
   background-repeat: no-repeat;
-  background-image: url("../../img/choose-img-3.svg");
+  background-image: url("../img/choose-img-3.svg");
   margin-bottom: 56px;
 }
 

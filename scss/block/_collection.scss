@@ -12,7 +12,7 @@
 .collection__img-box {
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url('../../img/collection-bg.png');
+  background-image: url('../img/collection-bg.png');
   padding-top: 126px;
 }
 
@@ -51,7 +51,7 @@
 
 @media screen and(max-width:934px) {
   .collection__img-box {
-    background-image: url('../../img/collection-bg-tablet.png');
+    background-image: url('../img/collection-bg-tablet.png');
     background-size: contain;
     padding-top: 95px;
   }
@@ -103,7 +103,7 @@
   }
 
   .collection__img-box {
-    background-image: url('../../img/collection-bg-mobile.png');
+    background-image: url('../img/collection-bg-mobile.png');
     background-size: contain;
     padding-top: 60px;
   }
