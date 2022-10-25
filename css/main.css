@@ -157,7 +157,7 @@ img {
 }
 
 .site-header__mobile-list {
-  height: 68%;
+  height: 68vh;
   border-radius: 10px;
   padding-top: 20%;
   top: 16.5%;
@@ -261,7 +261,7 @@ img {
 }
 @media only screen and (max-width: 554px) {
   .site-header__mobile-list {
-    height: 80%;
+    height: 80vh;
   }
   .site-header__mobile-link {
     font-size: 26px;
