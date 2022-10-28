@@ -1,0 +1,134 @@
+
+.enjoy{
+  padding-bottom: 171px;
+}
+
+.enjoy__box{
+  background-color: #293039;
+  height: 653px;
+}
+
+.enjoy__sub-box{
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 85px;
+}
+
+.enjoy__line {
+
+  width: 760px;
+  height: 2px;
+  background-color: #FDD6BA;
+  @include flex;
+  justify-content: space-between;
+  margin-bottom: 82px;
+}
+
+.enjoy__radius {
+  width: 31px;
+  height: 31px;
+  display: inline-block;
+  background:#293039 ;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+
+.enjoy__list{
+  @include flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.enjoy__number {
+  font-family: $second-font;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  margin-bottom: 38px;
+}
+
+.enjoy__sub-title {
+  max-width: 255px;
+  font-family: $second-font;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+  margin-bottom: 42px;
+}
+
+.enjoy__sub-text {
+  max-width: 285px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+@media screen and (max-width:1111px) {
+  .enjoy__box{
+    background-color: #293039;
+  }
+
+  .enjoy__line {
+    width: 680px;
+    height: 2px;
+    margin-bottom: 72px;
+  }
+  .enjoy__number {
+    font-size: 65px;
+    margin-bottom: 30px;
+  }
+  .enjoy__sub-title {
+    font-size: 28px;
+    margin-bottom: 37px;
+  }
+  .enjoy__sub-text {
+    font-size: 14px;
+  }
+  .enjoy__list{
+    gap: 20px;
+  }
+  .enjoy{
+    padding-bottom: 144px;
+  }
+
+}
+
+@media screen and (max-width:820px){
+  .enjoy__line{
+    display: none;
+  }
+
+  .enjoy__list{
+    flex-direction: column;
+  }
+
+  .enjoy__box{
+    background-color: #293039;
+    height: auto;
+  }
+
+
+  .enjoy__sub-box{
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 0;
+  }
+  .enjoy__number {
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  .enjoy__sub-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .enjoy__sub-text {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  .enjoy{
+    padding-bottom: 120px;
+  }
+}

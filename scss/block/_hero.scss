@@ -59,6 +59,10 @@
 }
 
 @media screen and(max-width:554px) {
+
+  .hero {
+    margin-top: 100px;
+  }
   .hero__block {
     background-image: url('../img/hero-bg-mobile.jpg');
     padding: 100px 0;
@@ -82,4 +86,5 @@
     font-size: 15px;
     line-height: 25px;
   }
+
 }
